@@ -33,7 +33,7 @@ fetch('https://mocki.io/v1/836315f2-b480-49e2-a57a-e814c93db2f2')
         pagamentoPendenteCell.textContent = 'Pendente';
         pagamentoPendenteCell.style.color = 'red';
       } else {
-        pagamentoPendenteCell.textContent = 'Pago';
+        pagamentoPendenteCell.textContent = 'Recebido';
         pagamentoPendenteCell.style.color = 'green';
       }
       pagamentoPendenteCell.style.paddingRight = '15px';
