@@ -1,0 +1,66 @@
+body {
+  background-color: #1c2331;
+  color: #ffffff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  font-weight: 700;
+}
+
+thead th {
+  border-bottom: 2px solid #dee2e6;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #242e3d;
+}
+
+tbody tr:hover {
+  background-color: #1f2b3a;
+}
+
+tbody td:not(:last-child) {
+  border-right: 1px solid #dee2e6;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+th {
+  background-color: #1f2b3a;
+}
+
+button.btn-success {
+  background-color: #4CAF50; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  border: none; /* Sem borda */
+  padding: 7px 15px; /* Espaçamento interno */
+  text-align: center; /* Centralizar texto */
+  text-decoration: none; /* Sem sublinhado */
+  display: inline-block; /* Como um elemento de linha */
+  font-size: 14px; /* Tamanho da fonte */
+  margin: 1px 2px; /* Espaçamento externo */
+  cursor: pointer; /* Cursor ao passar o mouse */
+  border-radius: 4px; /* Arredondamento dos cantos */
+}
+
+h1 {
+  text-align: center;
+}
+
+#input-busca {
+  margin-bottom: 30px;
+}
